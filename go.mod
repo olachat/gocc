@@ -1,4 +1,4 @@
-module github.com/liuzl/gocc
+module github.com/olachat/gocc
 
 go 1.16
 
