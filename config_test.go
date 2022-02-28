@@ -8,8 +8,8 @@ import (
 
 func TestConfig(t *testing.T) {
 	cases := []string{
-		"config/s2t.json",
-		"config/t2s.json",
+		"files/config/s2t.json",
+		"files/config/t2s.json",
 	}
 	for _, c := range cases {
 		body, err := ioutil.ReadFile(c)
